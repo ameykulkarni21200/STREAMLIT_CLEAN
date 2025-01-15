@@ -20,7 +20,7 @@ if uploaded_model is not None:
     venue = st.selectbox('Select Venue', df['venue'].unique())
     player_name = st.selectbox('Select Player Name', df['player_name'].unique())
     opposition_team = st.selectbox('Select Opposition Team', df['opposition_team'].unique())
-    player_team_first_role = st.selectbox('Select Player's Team First Role', df['player_team_first_role'].unique())
+    player_team_first_role = st.selectbox('Select Player Team First Role', df['player_team_first_role'].unique())
     
     # Button to predict score
     if st.button('Predict Fantasy Score'):
